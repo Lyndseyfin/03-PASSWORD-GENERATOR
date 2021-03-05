@@ -15,11 +15,11 @@ console.log(upper[Math.floor(Math.random() * upper.length)]);
 function generatePassword() {
   var passwordLength = parseInt(prompt("Choose a length of at least 8 characters and no more than 128 characters."));
   var library = [];
-  //holds the password we randomly generate
+  //holds the password that was randomly generate
   var password = "";
   if (isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128) {
     alert("Invalid")
-    return
+    return;
   }
   var userSpecial = confirm("Do you want to use special characters?"); //returns true or false
   //if true add special characters
@@ -28,19 +28,19 @@ function generatePassword() {
   }
 
 
-  var userUpper = confirm("Doyou want to use uppercase?");
+  var userUpper = confirm("Doyou want to use uppercase?"); //returns true of false
   if (userUpper) [
     library = library.concat(upper)
   ]
 
 
-  var userLower = confirm("Do you want to use lowercase?");
+  var userLower = confirm("Do you want to use lowercase?"); //returns true or false
   if (userLower) [
     library = library.concat(lower)
   ]
 
 
-  var userNumbers = confirm("Do you want to use numbers?");
+  var userNumbers = confirm("Do you want to use numbers?"); //returns true or false
   if (userNumbers) [
     library = library.concat(numbers)
   ]
@@ -50,7 +50,7 @@ function generatePassword() {
   //   alert("Must select one character type")
   //   return;
   // }
-  console.log(Math.random()) //0 to 1, doesn't go to 1
+  console.log(Math.random())
 
 
   for (var i = 0; i < passwordLength; i++) {
