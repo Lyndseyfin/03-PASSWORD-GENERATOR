@@ -24,7 +24,7 @@ function generatePassword() {
   var userSpecial = confirm("Do you want to use special characters?"); //returns true or false
   //if true add special characters
   if (userSpecial) {
-    library = library.concat(special) //concat returns a new array of new arrays merged together
+    library = library.concat(special)
   }
 
 
@@ -45,20 +45,16 @@ function generatePassword() {
     library = library.concat(numbers)
   ]
   console.log(library)
-  //   //checks if all are false
-  // if(!userSpecial && !userUpper && !userLower && !userNumbers){
-  //   alert("Must select one character type")
-  //   return;
-  // }
+
   console.log(Math.random())
 
-
+// generates random password
   for (var i = 0; i < passwordLength; i++) {
     var randomCharacter = library[Math.floor(Math.random() * library.length)];
     password += randomCharacter;
     console.log(password)
   }
-
+//gives password
   return password;
 }
 
