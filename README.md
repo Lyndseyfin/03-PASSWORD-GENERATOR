@@ -8,5 +8,4 @@ Third homework assignment
 - If user does meet password criteria, then the computer will generate users desiered password length/content
 
 ### Screenshot
-
 ![screenshot](assets/screencapture-file-C-Users-lynds-code-homework-03-PASSWORD-GENERATOR-index-html-2021-03-05-13_22_12.png)
