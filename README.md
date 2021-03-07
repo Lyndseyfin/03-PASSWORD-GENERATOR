@@ -7,8 +7,9 @@ Third homework assignment
 - If user does not meet requirements computer will return 'Invalid' and/or 'Undefined'
 - If user does meet password criteria, then the computer will generate users desired password length/content
 
-### Link
+### Link to deployed application 
 <a href= "https://lyndseyfin.github.io/03-PASSWORD-GENERATOR/">Password Generator</a>
 
 #### Screenshot
-![Screenshot](assets/03 PW GENERATOR.png)
+
+![screenshot](images/homework3.png)
