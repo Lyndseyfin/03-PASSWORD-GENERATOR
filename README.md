@@ -11,4 +11,4 @@ Third homework assignment
 <a href= "https://lyndseyfin.github.io/03-PASSWORD-GENERATOR/">Password Generator</a>
 
 #### Screenshot
-![screenshot](images.png/03 PW GENERATOR.png)
+![screenshot](images.png\03 PW GENERATOR.png)
