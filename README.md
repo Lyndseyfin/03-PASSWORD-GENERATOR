@@ -8,7 +8,7 @@ Third homework assignment
 - If user does meet password criteria, then the computer will generate users desired password length/content
 
 ### Link
-<a href= "https://lyndseyfin.github.io/03-PASSWORD-GENERATOR/">
+<a href= "https://lyndseyfin.github.io/03-PASSWORD-GENERATOR/">Password Generator</a>
 
 #### Screenshot
-![screenshot](assets/03 PW GENERATOR.png)
+![screenshot](images.png/03 PW GENERATOR.png)
